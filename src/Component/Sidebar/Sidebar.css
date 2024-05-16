@@ -1,0 +1,144 @@
+.header {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.side-nav {
+  width: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #181818;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.5s;
+  height: 100vh;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+
+  overflow: hidden;
+}
+.logo div {
+  display: none;
+}
+.contnt {
+  width: 90%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  right: 15px;
+  left: 10px;
+  background-color: #53acff96;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 10px;
+}
+.contnt:hover {
+  opacity: 1;
+}
+p {
+  font-weight: 600;
+  font-size: medium;
+}
+.contnt h1 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+}
+.on p:hover {
+  color: #226db4;
+}
+img.logo-img {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  margin: 0px;
+  padding: 0px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul li p {
+  display: none;
+}
+.title {
+  color: white;
+  display: none;
+}
+.icon {
+  display: none;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 30px;
+}
+.numb {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  width: 20px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #118f4b;
+  border-radius: 50%;
+  color: white;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+}
+.endbar {
+  margin-top: auto;
+}
+.side-nav:hover {
+  width: 200px;
+  .logo {
+    width: 100%;
+  }
+  img.logo-img {
+    width: 120px;
+    padding: 0px;
+  }
+  .title {
+    display: block;
+  }
+}
+.side-nav:hover .logo div {
+  display: block;
+}
+
+.side-nav:hover ul li p {
+  display: block;
+}
+
+@media (width < 700px) {
+  .icon {
+    display: block;
+  }
+}

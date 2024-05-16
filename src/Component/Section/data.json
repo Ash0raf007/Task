@@ -1,0 +1,38 @@
+[
+  {
+    "id":1,
+    "name1":"Health Care",
+    "name2":"IT",
+    "img1":"/assets/health.png",
+    "img2":"/assets/it.png"
+  },{
+    "id":2,
+    "name1":"Matrials",
+    "name2":"Communication",
+    "img1":"/assets/rec.png",
+    "img2":"/assets/chat.png"
+  },{
+    "id":3,
+    "name1":"Energy",
+    "name2":"Industrials",
+    "img1":"/assets/energy.png",
+    "img2":"/assets/fact.png"
+  },{
+    "id":4,
+    "name1":"Consumer Discretionary",
+    "name2":"Ultities",
+    "img1":"/assets/card.png",
+    "img2":"/assets/repi.png"
+  },{
+    "id":5,
+    "name1":"Consumer Staples",
+    "name2":"Financials",
+    "img1":"/assets/cart.png",
+    "img2":"/assets/pound.png"
+  },{
+    "id":6,
+    "name1":"Real Estate",
+    "img1":"/assets/home.png"
+    
+  }
+]

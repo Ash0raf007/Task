@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    
+    "name": "AMZN",
+    "title1":200 ,
+    "title2": "-0.25%",
+    "title3":"Low Risk"
+    },
+  {
+    "id": 2,
+    "name": "TSLA",
+    "title1": 200,
+    "title0":"-0.25%",
+    "title3": "Low Risk"
+
+  },
+  
+    {
+      "id": 3,
+      "name": "ABQQ",
+      "title1": 200,
+      "title0":"-0.25%",
+      "title3": "Hight Risk"
+  
+    },
+  {
+    "id": 4,
+    "name": "MSFT",
+    "title1":  200,
+    "title2":"-0.25%",
+    "title3":"Low Risk"
+    
+  },
+  {
+    "id": 5,
+    "name": " PYPL",
+    "title1": 200,
+    "title0":"-0.25%",
+    "title3": "Low Risk"
+
+  },
+  {
+    "id": 6,
+    "name": "NFLX",
+    "title1": 200,
+    "title2":"-0.25%",
+    "title3": "Low Risk"
+
+  },
+  {
+    "id": 7,
+    "name": "NFLX",
+    "title1": 200,
+    "title2":"-0.25%",
+    "title3": "Low Risk"
+
+  },    {
+    "id": 8,
+    "name": "NFLX",
+    "title1": 200,
+    "title2":"-0.25%",
+    "title3": "Low Risk"
+
+  },    {
+    "id": 9,
+    "name": "NFLX",
+    "title1": 200,
+    "title2":"-0.25%",
+    "title3": "Low Risk"
+
+  },
+  {
+    "id": 10,
+    "name": "NFLX",
+    "title1": 200,
+    "title2":"-0.25%",
+    "title3": "Low Risk"
+
+  }
+
+]
+
+
+
+
